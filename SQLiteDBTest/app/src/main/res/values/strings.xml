@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SQLiteDBTest</string>
+    <string name="title_activity_show_query">ShowQueryActivity</string>
+    <string name="title_activity_add">AddActivity</string>
+</resources>

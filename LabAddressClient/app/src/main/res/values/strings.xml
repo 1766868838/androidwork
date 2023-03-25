@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LabAddressClient</string>
+    <string name="name">姓名：</string>
+    <string name="mobile">手机号码：</string>
+    <string name="add">添加</string>
+    <string name="add_contact">ADD CONTACT</string>
+    <string name="query_contact">QUERY CONTACT</string>
+    <string name="queryMethod">选择查询方式：</string>
+    <string name="byName">按姓名</string>
+    <string name="byMobile">按手机号码</string>
+    <string name="keyText">输入关键字：</string>
+    <string name="query">查询</string>
+
+</resources>

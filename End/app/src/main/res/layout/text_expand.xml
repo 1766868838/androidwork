@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:id="@+id/ll_content"
+    >
+<!--    android:fadeScrollbars=”true” //设置为true就可以实现滚动条的自动隐藏和显示-->
+<TextView
+    android:id="@+id/text_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:scrollbars="vertical"
+    android:fadeScrollbars="false"
+    android:textSize="20dp" />
+<Button
+    android:id="@+id/btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="查看更多"
+    />
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

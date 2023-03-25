@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_1"
+    android:layout_height="match_parent">
+    <ImageView
+
+        android:id="@+id/read_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="阅读"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="32dp">
+    </TextView>
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/read_text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="阅读内容"
+        android:textSize="20sp">
+    </TextView>
+</LinearLayout>

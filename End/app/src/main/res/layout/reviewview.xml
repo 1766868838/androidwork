@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    >
+
+    <TextView
+        android:id="@+id/rWord"
+        android:layout_width="109dp"
+        android:layout_height="60dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="单词"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rExplanation"
+        android:text="单词"
+        android:background="@drawable/border"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_width="240dp"
+        android:layout_height="60dp" />
+</LinearLayout>
